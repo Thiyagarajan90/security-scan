@@ -40,11 +40,11 @@ steps:
 
   - script: |
       cd $(Build.SourcesDirectory)
-      git config --global user.email "tarshyak@gmail.com" 
-      git config --global user.name "tarshyak" 
+      git config --global user.email "tbq1cob@bosch.com" 
+      git config --global user.name "Thiyagarajan90" 
 
       # Set remote URL with GitHub credentials from variable group
-      git remote set-url origin https://$(GITHUB_USERNAME):$(GITHUB_TOKEN)@github.com/tarshyak/security-scan.git  
+      git remote set-url origin https://$(GITHUB_USERNAME):$(GITHUB_TOKEN)@github.com/Thiyagarajan90/security-scan.git
 
       # Ensure we're on the main branch
       git checkout main || git checkout -b main
